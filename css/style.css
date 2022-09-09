@@ -109,7 +109,7 @@ li {
   gap: 9rem;
 }
 
-.grid-two-columns {
+.grid-two-column{
   grid-template-columns: repeat(2, 1fr);
 }
 
