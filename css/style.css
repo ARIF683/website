@@ -114,7 +114,7 @@ li {
 }
 
 .btn {
-  background-color: var(--gradientSupport);
+  background: var(--gradient);
   padding: 1.6rem 3.2rem;
   border: none;
   color: var(--helper-tint);
@@ -127,7 +127,6 @@ li {
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
-
 }
 
 .btn:hover,
@@ -145,6 +144,7 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: center;
+ /* align-items: flex-start; */
 }
 
 .hero-top-data {
